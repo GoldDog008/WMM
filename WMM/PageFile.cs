@@ -1,4 +1,5 @@
 ﻿using System.Management;
+using WMM.MemoryBL;
 
 namespace WMM
 {

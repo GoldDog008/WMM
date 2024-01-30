@@ -1,5 +1,5 @@
-﻿using WMM.Memory;
-using static WMM.Memory.RAMCollection;
+﻿using WMM.MemoryBL;
+using static WMM.MemoryBL.RAMCollection;
 
 namespace WMM
 {

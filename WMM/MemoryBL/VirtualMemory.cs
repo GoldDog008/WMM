@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace WMM.Memory
+namespace WMM.MemoryBL
 {
     internal class VirtualMemory : Memory
     {

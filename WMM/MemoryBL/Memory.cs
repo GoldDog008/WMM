@@ -1,4 +1,4 @@
-﻿namespace WMM.Memory
+﻿namespace WMM.MemoryBL
 {
     internal abstract class Memory
     {

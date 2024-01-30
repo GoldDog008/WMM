@@ -1,4 +1,4 @@
-using WMM.Memory;
+using WMM.MemoryBL;
 
 namespace WMM
 {

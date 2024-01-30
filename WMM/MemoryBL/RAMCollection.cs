@@ -1,6 +1,6 @@
 ﻿using System.Management;
 
-namespace WMM.Memory
+namespace WMM.MemoryBL
 {
     internal class RAMCollection
     {

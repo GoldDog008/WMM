@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualBasic.Devices;
 
-namespace WMM.Memory
+namespace WMM.MemoryBL
 {
     internal class PhysicalMemory : Memory
     {
