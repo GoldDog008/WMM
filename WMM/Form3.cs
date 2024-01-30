@@ -1,5 +1,6 @@
 ﻿using ScottPlot;
 using ScottPlot.Plottable;
+using WMM.Memory;
 
 namespace WMM
 {

@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualBasic.Devices;
 
-namespace WMM
+namespace WMM.Memory
 {
     internal class PhysicalMemory : Memory
     {
@@ -23,7 +23,7 @@ namespace WMM
 
         protected override void UpdateUtilization()
         {
-            Utilization = (UsedMemory / TotalMemory) * convertToPercent;
+            Utilization = UsedMemory / TotalMemory * convertToPercent;
         }
     }
 }

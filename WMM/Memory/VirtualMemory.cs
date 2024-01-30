@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace WMM
+namespace WMM.Memory
 {
     internal class VirtualMemory : Memory
     {
@@ -32,7 +32,7 @@ namespace WMM
 
         protected override void UpdateUtilization()
         {
-            Utilization = (UsedMemory / TotalMemory) * convertToPercent;
+            Utilization = UsedMemory / TotalMemory * convertToPercent;
         }
 
         private void UpdatePhysicalAndPageFileInfo()

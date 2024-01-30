@@ -1,4 +1,4 @@
-﻿namespace WMM
+﻿namespace WMM.Memory
 {
     internal abstract class Memory
     {
@@ -18,7 +18,7 @@
         {
             UpdateTotalMemory();
             UpdateAvailableMemory();
-            UpdateUsedMemory();                
+            UpdateUsedMemory();
             UpdateUtilization();
         }
     }

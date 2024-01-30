@@ -1,6 +1,6 @@
 ﻿using System.Management;
 
-namespace WMM
+namespace WMM.Memory
 {
     internal class RAMCollection
     {
@@ -39,7 +39,7 @@ namespace WMM
                 ram.Capacity = ((ulong)obj["Capacity"] / bytesToMegabytes).ToString();
                 ram.Speed = ((uint)obj["Speed"]).ToString();
                 ram.DeviceLocator = (string)obj["DeviceLocator"];
-                ram.FormFactor = GetFormFactorString(((ushort)obj["FormFactor"]));
+                ram.FormFactor = GetFormFactorString((ushort)obj["FormFactor"]);
 
                 RAMs.Add(ram);
             }

@@ -1,3 +1,5 @@
+using WMM.Memory;
+
 namespace WMM
 {
     public partial class Form1 : Form
